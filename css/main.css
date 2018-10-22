@@ -1,37 +1,37 @@
     /* Adding  fonts */
     @font-face {
         font-family: "AdventPro-ExtraLight";
-        src: url(../Fonts/AdventPro/AdventPro-ExtraLight.ttf);
+        src: url(../fonts/AdventPro/AdventPro-ExtraLight.ttf);
       }
   
       @font-face {
         font-family: "AdventPro-Regular";
-        src: url(../Fonts/AdventPro/AdventPro-Regular.ttf);
+        src: url(../fonts/AdventPro/AdventPro-Regular.ttf);
       }
   
       @font-face {
         font-family: "AdventPro-Medium";
-        src: url(../Fonts/AdventPro/AdventPro-Medium.ttf);
+        src: url(../fonts/AdventPro/AdventPro-Medium.ttf);
       }
       
       @font-face {
         font-family: "AdventPro-Bold";
-        src: url(../Fonts/AdventPro/AdventPro-Bold.ttf);
+        src: url(../fonts/AdventPro/AdventPro-Bold.ttf);
       }
   
       @font-face {
         font-family: "AtomicAge";
-        src: url(../Fonts/AtomicAge/AtomicAge-Regular.ttf)
+        src: url(../fonts/AtomicAge/AtomicAge-Regular.ttf)
       }
   
       @font-face {
         font-family: "MavenPro";
-        src: url(../Fonts/MavenPro/MavenPro-Regular.ttf)
+        src: url(../fonts/MavenPro/MavenPro-Regular.ttf)
       }
   
       @font-face {
         font-family: "Moodyrock";
-        src: url(../Fonts/Moodyrock.otf)
+        src: url(../fonts/Moodyrock.otf)
       }
   
   body {
