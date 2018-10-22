@@ -1,5 +1,158 @@
 <html>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+  <head>
+    <title>AGAH - Home</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- Adding Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+  <!-- Header -->
+    <div id="top">
+      <div id="header">
+        <a href="index.html" class="header linkStyle1"><strong>agah</strong>
+        <span>productions</span></a>
+      </div>
+
+  <!-- Navagation Bar -->
+      <div id="navBar">
+        <ul>
+          <li><a href="index.html" class="linkStyle2">Home</a></li>
+          <li><a href="landings/projects.html" class="linkStyle2">Projects</a></li>
+          <li><a href="landings/landing.html" class="linkStyle2">About</a></li>
+          <li><a href="#contact" class="linkStyle2">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- Banner -->
+    <div id="banner" class="noWarp">
+      <header class="mask1">
+        <h1>Life isn't about waiting for the storm to pass;
+        <br>It's learning to dance in the rain.</h1>
+        <hr>
+        <a href="#main" class="buttonBox">get started</a>
+      </header>
+    </div>
+
+  <!-- Main -->
+    <!-- One -->
+    <div id="main">
+      <section id="one">
+        <a href="landings/trips.html" class="link">
+          <article class="small left image1">
+            <header>
+              <h3>Trips</h3>
+              <p>From Brazil to the world</p>
+            </header>
+          </article>
+        </a>
+        <a href="landings/projects.html" class="link">
+          <article class="big right image2">
+            <header>
+              <h3>Coding</h3>
+              <p>This and other projects for download</p>
+            </header>
+          </article>
+        </a>
+        <a href="landings/photos.html" class="link">
+          <article class="big left image3">
+            <header>
+              <h3>Photos</h3>
+              <p>The world seen by my eyes</p>
+            </header>
+          </article>
+        </a>
+        <a href="landings/musics.html" class="link">
+          <article class="small right image4">
+            <header>
+              <h3>Musics</h3>
+              <p>My favorit hobby</p>
+            </header>
+          </article>
+        </a>
+        <a href="landings/videos.html" class="link">
+          <article class="small left image5">
+            <header>
+              <h3>Videos</h3>
+              <p>Audiovisual productions</p>
+            </header>
+          </article>
+        </a>
+        <a href="landings/resume.html" class="link">
+          <article class="big right image6">
+            <header>
+              <h3>Resume</h3>
+              <p>Professional information and portfolio</p>
+            </header>
+          </article>
+        </a>
+      </section>
+    <!-- Two -->
+      <section id="two">
+        <article id="feedBack">
+          <h2>Your Feedback is Important!</h2>
+          <p class="indent">Please feel free to sand us a message with any comment that you have! We would love to read all your critics or complemets about our work. Also, we are open to design projects for you as well, so if you liked this website or any other project, please sand us a massage and we will contact you.</p>
+            <p class="spacing">Thanks for your visit!</p>
+          <a href="#contact" class="buttonBox">Sand a Message</a>
+        </article>
+      </section>
+    </div>
+
+    <!-- Contact -->
+      <div id="contact">
+        <div id="form">
+          <form method="post" action="../form.php">
+            <div class="field half first">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="field half second">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" />
+            </div>
+            <div class="field bottom">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="6"></textarea>
+            </div>
+            <ul class="buttons">
+              <li><input type="submit" value="Send Message" class="special" /></li>
+              <li class="inline"><input type="reset" value="Clear" /></li>
+            </ul>
+          </form>
+        </div>
+    <!-- Information -->
+        <div id="info">
+          <div class="box">
+            <a class="icon noLink fa-envelope"></a>
+            <h1>Email</h1>
+            <a href="mailto:henriaguiar99@gmail.com" class="link margin mail">henriaguiar99@gmail.com</a>
+          </div>
+          <div class="box">
+            <a class="icon noLink fa-phone"></a>
+            <h1>Phone</h1>
+            <p class="margin">(402) 770-5741</p>
+          </div>
+          <div class="box">
+            <a class="icon noLink fa-home"></a>
+            <h1>Address</h1>
+            <p class="margin">1118 Rockhurst Dr.<br>
+              Lincoln, NE - 68510</p>
+          </div>
+        </div>
+      </div>
+
+    <!--- Footer -->
+      <footer id="footer">
+        <div class="margin">
+          <a href="https://www.facebook.com/henrique.zanetti.58" target="_blank" class="icon fa-facebook"></a>
+          <a href="https://www.instagram.com/h.zanetti/" target="_blank" class="icon fa-instagram"></a>
+          <a href="#" target="_blank" class="icon fa-youtube"></a>
+          <a href="#" target="_blank" class="icon fa-twitter"></a>
+          <a href="#" target="_blank" class="icon fa-google"></a>
+          <ul>
+            <li class="copyright">&copy; Henrique Z. Aguiar</li><li>Reference: <a href="https://html5up.net" target="_blank" class="link">HTML5 UP</a></li>
+        </div>
+      </footer>
+  </body>
 </html>
