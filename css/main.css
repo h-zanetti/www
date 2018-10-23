@@ -189,9 +189,9 @@
   
   header.mask1 {
     width: 100%;
-    background: rgba(10, 10, 50, .6);
+    background: rgba(10, 10, 50, .7);
     display: block;
-    padding: 5em 0 14.5em 0;
+    padding: 5em 0 20em 0;
   }
   
   
@@ -369,13 +369,14 @@
       background: rgb(38, 43, 70);
       margin-left: -.5em;
       padding-right: 1em;
+      padding-bottom: 2.45em;
     }
   
     /* Form */
       div#form {
         width: 50%;
         display: inline-block;
-        padding-bottom: 6.3em;
+        padding-bottom: 0;
       }
   
         form {
@@ -414,7 +415,7 @@
           letter-spacing: .25em;
           text-transform: uppercase;
           margin: 0 0 1em 0;
-          padding: 1em 1em 0 1.25em;
+          padding: 1em 1em 1em; 1.25em;
         }
   
         input, textarea {
@@ -425,20 +426,19 @@
           color: inherit;
           display: block;
           outline: 0;
-          padding: 0 1em;
           margin-left: 1em;
           text-decoration: none;
         }
   
         input[type="text"] {
-          height: 3.5em;
-          width: 20em;
+          height: 1em;
+          width: 18.5em;
           font-size: 1.25em;
         }
   
         textarea {
           padding: 1em;
-          width: 53.45em;
+          width: 52em;
           height: 15.85em;
           font-size: 1.25em;
         }
@@ -457,8 +457,7 @@
   
       /* Buttons */
           ul.buttons {
-            margin-left: -1.65em;
-            padding-bottom: 2em;
+            margin-left: -1.85em;
             list-style-type: none;
             width: 100%;
           }
@@ -482,7 +481,7 @@
             text-transform: uppercase;
             white-space: nowrap;
             margin: 1em 0 1em .5em;
-            padding: .25em 1em 3.5em 1.15em;
+            padding: .25em 1em 0 1.15em;
             float: left;
           }
   
